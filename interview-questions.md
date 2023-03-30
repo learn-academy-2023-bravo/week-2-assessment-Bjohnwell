@@ -64,6 +64,10 @@ Map: returns an array of pieces of information from the original array. In the c
 
 Filter: returns a subset of the original array based on custom criteria. In your callback function, return a boolean value to determine whether or not each item will be included in the new array.
 
+(my interpretation)
+.map: Will return the an array the same length as your input with the argument applied to each element.
+.filter: will return a subset of your original array with just the elements that the filter applies to.
+
 1. What is iteration?
 
 Your answer: The process of doing an action or process over and over till a condition is met.
@@ -72,6 +76,8 @@ Researched answer:https://www.techopedia.com/definition/3821/iteration
 
 (Language from the source)
 Iteration, in the context of computer programming, is a process wherein a set of instructions or structures are repeated in a sequence a specified number of times or until a condition is met. 
+
+(My interpretation:) You keep doing the thing till something changes.
 
 1. What is the difference between a function and a method?
 

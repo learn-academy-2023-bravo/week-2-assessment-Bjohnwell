@@ -27,10 +27,10 @@ const greeter = (name) => {
 // --------------------3) What will this log?
 
 const multipliedByTwo = [4, 5, 6, 7, 8].map((number) => number * 2)
-// console.log(multipliedByTwo)
+console.log(multipliedByTwo)
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer: [ 8, 10, 12, 14, 16 ]
+// b) Verify and explain: it returned an array of all the numbers multiplied by 2 because we used .map to iterate over all the elements in the array applied the *2 to each element.
 
 // --------------------4) What will this log?
 
